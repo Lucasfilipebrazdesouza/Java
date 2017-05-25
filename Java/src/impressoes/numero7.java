@@ -1,13 +1,14 @@
 package impressoes;
 
-//6)	Imprima apenas números ímpares de 0 à 100;
+// imprima apenas numeros pares de 0 à 100 
 
-public class numero6 {
+public class numero7 {
+
 	public static void main(String[] args) {
 		for (int a = 0; a <= 100; a++) {
-			if (a % 2 ==1)
+			if (a % 2 == 0)
 				System.out.println(a);
-		      	{
+			{
 
 			}
 		}
