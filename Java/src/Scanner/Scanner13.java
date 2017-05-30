@@ -29,8 +29,9 @@ public class Scanner13 {
 		int numC = scanner.nextInt();
 		System.out.println("Digite o terceiro número inteiro :");
 		int numD = scanner.nextInt();
-		int soma1 = numB + numC + numD;
-		if (numA <= soma1 && numA % 2 == 1 || numA > 10) {
+		int resultado = numB + numC + numD;
+		System.out.println("Resultado = " +resultado);
+		if (numA <= resultado && numA % 2 == 1 || numA > 10) {
 			System.out.println(true);
 		} else {
 			System.out.println(false);
