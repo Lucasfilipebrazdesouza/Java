@@ -16,28 +16,28 @@ public class Numero6 {
 	public static void main(String[] args) {
 		String city = JOptionPane.showInputDialog("Qual cidade vc mora");
 		String downtown = JOptionPane.showInputDialog("Em qual bairro vc mora");
-		if (city == "Blumenau" && downtown == "Velha") {
+		if (city.equals("Blumenau") && downtown.equals("Velha")); 
 			JOptionPane.showMessageDialog(null, "Você se atrasará para o trabaho !");
-		}
-		if (city == "Blumenau" && downtown == "Fortaleza") {
+		
+		if (city.equals("Blumenau") && downtown.equals("Fortaleza")); 
 			JOptionPane.showMessageDialog(null, "Você se atrasará muito mais para o trabaho !");
-		}
-		if (city == "Blumenau" && downtown == "Garcia") {
+		
+		if (city.equals("Blumenau") && downtown.equals("Garcia")); 
 			JOptionPane.showMessageDialog(null, "Você tem que sair de madrugada para não pegar trânsito !");
-		}
-		if (city == "Gaspar" && downtown == "Belchior") {
+	
+		if (city.equals("Gaspar") && downtown.equals("Belchior")); 
 			JOptionPane.showMessageDialog(null, "OK você gosta de pegar trânsito");
-		}
-		if (city == "Blumenau" && downtown == "Bela Vista") {
+		
+		if (city.equals("Blumenau") && downtown.equals("Bela Vista")); 
 			JOptionPane.showMessageDialog(null, "Pegue carona com quem vêem de Gaspar, economiza gasolina !");
-		}
-		{
+		
+		
 			String resposta = JOptionPane.showInputDialog("Você concorda com que eu disse ? \ncaso sim digite ok... ");
-			if (resposta == "ok") {
+			if (resposta.equals("ok")) {
 				JOptionPane.showMessageDialog(null, "Show de Bola");
 			} else {
 				JOptionPane.showMessageDialog(null, "Ok, problema é nosso !");
 			}
 		}
 	}
-}
+
