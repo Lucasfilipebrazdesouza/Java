@@ -7,6 +7,32 @@ c.	Maior que R$ 1.200,00 e menor ou igual a R$ 2000,00 o desconto é 25%
 d.	Maior que R$ 2000,00 o desconto é 30%
 */
 
-public class Numero13 {
+import java.util.Scanner;
 
+public class Numero13 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Digite o valor do salário :");
+		double salario = scanner.nextDouble();
+		double salarioliq = 0;
+		if (salario <= 600) {
+			salarioliq = salario;
+		} else {
+			if (salario >= 600 && salario <= 1200) {
+				salarioliq = salario * 0.80;
+			} else {
+				if (salario > 1200 && salario <= 2000) {
+					salarioliq = salario * 0.75;
+				} else {
+					if (salario > 2000) {
+						salarioliq = salario * 0.70;
+					}
+					
+				}
+				
+			}
+		}
+		System.out.println(" Salário Líquido : " +salarioliq);
+		scanner.close();
+	}
 }

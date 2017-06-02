@@ -24,6 +24,7 @@ outroNumero = numero + 1;
 outroNumero = outroNumero + numero;
 System.out.println(outroNumero);
 	}
+}
 
 
 /*Console:
@@ -31,19 +32,5 @@ System.out.println(outroNumero);
 3*/
 
 /*C*/
-int numeroA = 10;
-int outroNumeroA = numeroA;
 
-outroNumeroA = outroNumeroA + 10;
-numeroA = outroNumeroA;
-numeroA = outroNumeroA + 1;
-System.out.println(numeroA);
-outroNumeroA = numeroA + 1;
-System.out.println(outroNumeroA);
-}
-}
-
-/*Console:
-21		
-22*/
 

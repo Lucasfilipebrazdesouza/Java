@@ -58,7 +58,7 @@ public static void main(String[] args) {
 	valoresPizzas[14] = 45;
 	
 	JOptionPane.showMessageDialog(null, "Cardápio \n" + listaA);
-	String codigo = JOptionPane.showInputDialog("Cód Pizza Desejado:");
+	String codigo = JOptionPane.showInputDialog("Cód Pizza Desejado: \n*insira os códs com espaço entre eles*");
 	String[] lista = codigo.split(" ");
 	String pedido = "";
 	int valorTotalPedido = 0; 
